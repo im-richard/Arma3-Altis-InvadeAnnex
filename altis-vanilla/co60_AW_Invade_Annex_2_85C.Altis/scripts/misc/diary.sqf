@@ -38,7 +38,7 @@ if (!hasInterface) exitWith {};
 waitUntil {!isNull player};
 
 player createDiarySubject ["rules", "Rules"];
-player createDiarySubject ["mods", "Mods"];
+player createDiarySubject ["staff", "Staff"];
 player createDiarySubject ["teamspeak", "Teamspeak"];
 player createDiarySubject ["faq", "FAQ"];
 player createDiarySubject ["changelog", "Change Log"];
@@ -98,36 +98,27 @@ player createDiaryRecord ["rules",
 
 //-------------------------------------------------- Mods
 
-player createDiaryRecord ["mods",
+player createDiaryRecord ["staff",
 [
-"Serverside",
+"Administrators",
 "
-<br /> Mods currently running on server (subject to change without notice):<br /><br />
-
-<br />- None at this time. 
+<br />Richard
+<br />Emlorp
+<br />Bobby
+<br />TheGrappler
+<br />TheNomBomb
+<br />Kirby 
 "
 ]];
 
-player createDiaryRecord ["mods",
+player createDiaryRecord ["staff",
 [
-"Mods Allowed",
+"Moderators",
 "
-<br /> Mods currently allowed (subject to change without notice):<br /><br />
-
-<br />- CBA - 1.00 beta5 - Required to run the below mods.
-		http://www.armaholic.com/page.php?id=18768<br /><br />
-		
-<br />- JSRS - 2.0 and 2.1 - Enhanced sounds and audio.
-		http://www.armaholic.com/page.php?id=22150<br /><br />
-		
-<br />- Blastcore - R3 - Enhanced visual effects.
-		http://www.armaholic.com/page.php?id=23899<br /><br />
-		
-<br />- ShackTac Fireteam HUD - v140302 - Situational awareness HUD
-		http://www.armaholic.com/page.php?id=9936<br /><br />
-
-<br />- VTS Weapon resting - v05 - Simulates 'bipod' and weapon resting.
-		http://www.armaholic.com/page.php?id=20817
+<br />Sgt. Walker
+<br />Bloodtooth
+<br />JettCubed
+<br />Billy
 "
 ]];
 
@@ -146,7 +137,7 @@ player createDiaryRecord ["teamspeak",
 [
 "AHOY WORLD",
 "
-<br /> Address: ts.ahoyworld.co.uk
+<br /> Address: ts.archegamingstudios.net (167.114.126.239:9987)
 <br />
 <br /> Visitors and guests welcome!
 "
@@ -251,363 +242,39 @@ player createDiaryRecord ["faq",
 
 player createDiaryRecord ["changelog",
 [
-"2.79",
+"3.10",
 "
-<br />- [CHANGED] Hummingbird texture.
-<br />- [CHANGED] 1 Ghosthawk changed to a helcat.
-<br />- [CHANGED] Pawnee should now have a different texture.
-<br />- [CHANGED] Changelog.
-<br />- [TWEAKED] Pawnee side mission spawn rate increased.
-<br />- [TWEAKED] Wipeout and Neophron now have 60 flares.
-<br />- [TWEAKED] Some minor things added at spawn.
-<br />- [ADDED] Minigun Dispersion.
-<br />- [ADDED] Mortar to side mission reward.
-<br />- [ADDED] LaForte to Zeus.
-<br />- [ADDED] Spartan program.
-<br />- [ADDED] New AO's.
-<br />- [ADDED] Speed of sound to accepted mods.
-<br />- [ADDED] Tao Folding Map to accepted mods.
-<br />- [ADDED] Helmet Mounted Displays Mod to accepted mods.
-<br />- [ADDED] Midrange Terrain Texture to accepted mods.
-<br />- [ADDED] Rule against landing helicopters in the main spawn.
-<br />- [FIXED] Exploit where jet could bypass 5 minutes repair timer.
+<br />- [ADDED] Added new billboards
+<br />- [ADDED] Anti-Air defense to HQ.
 "
 ]];
 
 player createDiaryRecord ["changelog",
 [
-"2.79A",
+"3.00",
 "
-<br />- [ADDED] AH-9 Pawnee GAU - 19 variant to side missions rewards.
-<br />- [ADDED] Rabbit to side missions rewards (used to spawn GAU-19).
-<br />- [FIXED] Mortar side mission reward should no longer be restricted.
-<br />- [FIXED] Secure Chopper side missions should now work.
-<br />- [FIXED] Minigun dispersion to Ghosthawk turrets.
-"
-]];
-
-player createDiaryRecord ["changelog",
-[
-"2.79B",
-"
-<br />- [CHANGED] Now Use Quiksilver's player markers.
-<br />- [CHANGED] Rifleman (AT) is now a Missile Spec. (AT).
-<br />- [ADDED] All players may now revive when within 5 meters of a Medical HEMTT.
-<br />- [ADDED] New Medivac LZ.
-<br />- [ADDED] Combat Life Saviour Team.
-<br />- [ADDED] Arsenal is back on the VASman.
-"
-]];
-
-player createDiaryRecord ["changelog",
-[
-"2.79D",
-"
-<br />- [FIXED] Rifleman(AT) should now be fixed again.
-<br />- [FIXED] Artillery should now fire.
-<br />- [TWEAKED] Player Icons should now display further away.
-<br />- [TWEAKED] Players now need a FAK to revive at a Medical HEMTT.
-<br />- [TWEAKED] Tweaked some aspects of BTC to improve performance.
-<br />- [CHANGED] All playable units should now be attached to Zues.
-<br />- [ADDED] 5th pilot slot and helicopter.
-<br />- [ADDED] Bobcat is now at spawn.
-<br />- [ADDED] Quick save option for gear.
-"
-]];
-
-player createDiaryRecord ["changelog",
-[
-"2.79F",
-"
-<br />- [TWEAKED] Some behind the scenes stuff.
-<br />- [ADDED] Some parameters for better before mission customization.
-"
-]];
-
-player createDiaryRecord ["changelog",
-[
-"2.80",
-"
-<br />- [ADDED] CH-47 Huron to helicopters.
-<br />- [ADDED] Mi-290 Taru to Side mission rewards.
-<br />- [ADDED] Huron crate spawner.
-"
-]];
-
-player createDiaryRecord ["changelog",
-[
-"2.80A",
-"
-<br />- [CHANGED] Reverted back to Quicksilver's icons.
-<br />- [REMOVED] Defend AO.
-<br />- [FIXED] Rearm UAV.sqf was re-added.
-"
-]];
-
-player createDiaryRecord ["changelog",
-[
-"2.81",
-"
-<br />- [ADDED] CAP(close air patrol) buzzard now spawns at mission start with 10 min respawn.
-<br />- [ADDED] Headless Client (please report fps changes to our forums).
-<br />- [TWEAKED] Enemy Jets should now have a lower AI setting.
-<br />- [FIXED] UAV's now spawn with ammo again.
-<br />- [FIXED] The supply crates should not spawn in properly.
-"
-]];
-
-player createDiaryRecord ["changelog",
-[
-"2.81A",
-"
-<br />- [ADDED] Mortar Gunner role has been added.
-<br />- [TWEAKED] Offloaded more AI to the HC.
-<br />- [TWEAKED] Spawn chances for AH-9 Pawnee and AH-9 Pawnee GAU-19 increased.
-<br />- [CHANGED] SM Reward Mortar is now attached to the bed of a truck.
-<br />- [CHANGED] UAV Operator is now in the same squad as the Mortar Gunner.
-<br />- [CHANGED] Artillery Computer has been disabled for all players except for the Mortar Gunner.
-"
-]];
-
-player createDiaryRecord ["changelog",
-[
-"2.81B",
-"
-<br />- [TWEAKED] Spawn rates of Jets in Side mission rewards.
-<br />- [TWEAKED] Moved TS markers to be more in yo face.
-<br />- [TWEAKED] Added VAS, VA, and view distance to man standing in pilot spawn.
-<br />- [TWEAKED] Headless Client Public Variable now in init player local.
-<br />- [CHANGED] Base Protection changed to a HintC.
-<br />- [ADDED] Pancake to Spartan Program.
-<br />- [ADDED] Ahoy World Intro added.
-<br />- [FIXED] Repair pad at AAF Airfield no longer repairs planes.
-"
-]];
-
-player createDiaryRecord ["changelog",
-[
-"2.81C",
-"
-<br />- [FIXED] Issue with Intro Popup and Headless Client (hopefully).
-<br />- [FIXED] Minor script error for the fuel canister.
-"
-]];
-
-player createDiaryRecord ["changelog",
-[
-"2.81D",
-"
-<br />- [FIXED] Issue with Intro Popup and Headless Client (hopefully)(for real this time).
-<br />- [ADDED] Billboards.
-"
-]];
-
-player createDiaryRecord ["changelog",
-[
-"2.81E",
-"
-<br />- [FIXED] Removed headlessclient variable from initPlayerLocal.
-"
-]];
-
-player createDiaryRecord ["changelog",
-[
-"2.81F",
-"
-<br />- [FIXED] headlessclient variable is in init now.
-<br />- [ADDED] Chon is now Spartan.
-<br />- [ADDED] Ahoy EU 3 advertisement.
-"
-]];
-player createDiaryRecord ["changelog",
-[
-"2.81G",
-"
-<br />- [FIXED] HeadlessClient (If it is still not fixed I will cry).
-"
-]];
-
-player createDiaryRecord ["changelog",
-[
-"2.82",
-"
-<br />- [CHANGED] AO enemies now spawn using DAC zones.
-"
-]];
-
-player createDiaryRecord ["changelog",
-[
-"2.82A",
-"
-<br />- [CHANGED] AO enemies now use a mix of DAC and old method.
-<br />- [ADDED] Mattadee to Spartan.
-<br />- [ADDED] Hint for AW Members that joined.
-"
-]];
-
-player createDiaryRecord ["changelog",
-[
-"2.82B",
-"
-<br />- [FIXED] Typo in hint for members.
-<br />- [TWEAKED] DAC AI.
-"
-]];
-
-player createDiaryRecord ["changelog",
-[
-"2.82C",
-"
-<br />- [FIXED] Script Error in initPlayerLocal (wrong slashes).
-<br />- [ADDED] Cam Shake fix added to VAS Man.
-"
-]];
-
-player createDiaryRecord ["changelog",
-[
-"2.82D",
-"
-<br />- [TWEAKED] Minor script tweaks.
-"
-]];
-
-player createDiaryRecord ["changelog",
-[
-"2.82E",
-"
-<br />- [ADDED] Marksman DLC weapons are restricted to the respective classes.
-<br />- [CHANGED] Thermal Optics are restricted to Squad Leaders.
-<br />- [CHANGED] Orca to Hellcat.
-"
-]];
-
-player createDiaryRecord ["changelog",
-[
-"2.83",
-"
-<br />- [REMOVED] DAC AI to the AO.
-<br />- [ADDED] Headless Client should now properly work, however, still issues if it has to reconnect.
+<br />- Complete re-build of game-mode.
 "
 ]];
 
 
-player createDiaryRecord ["changelog",
-[
-"2.83B",
-"
-<br />- [REMOVED] DAC.
-<br />- [REMOVED] Pancake from spartan.
-<br />- [TWEAKED] Hellcat changed to Ghost-Hwak.
-<br />- [ADDED] BIS's group management.
-"
-]];
-
-
-player createDiaryRecord ["changelog",
-[
-"2.83E",
-"
-<br />- [TWEAKED] Spawn chances for reward vehicles.
-<br />- [ADDED] Pawnee with GMG to SM rewards.
-"
-]];
-
-player createDiaryRecord ["changelog",
-[
-"2.83F",
-"
-<br />- [CHANGED] BillBoards at spawn now choose a random image when you load.
-"
-]];
-
-player createDiaryRecord ["changelog",
-[
-"2.83G",
-"
-<br />- [ADDED] More Billboards.
-"
-]];
-
-player createDiaryRecord ["changelog",
-[
-"2.83J",
-"
-<br />- [ADDED] Stuff.
-"
-]];
-
-player createDiaryRecord ["changelog",
-[
-"2.84",
-"
-<br />- [REMOVED] Lots of PublicVaraiables.
-<br />- [FIXED] Statics should not be deleted as harshly.
-<br />- [ADDED] Billboards.
-"
-]];
-
-player createDiaryRecord ["changelog",
-[
-"2.85",
-"
-<br />- [FIXED] GMG Technical.
-<br />- [ADDED] FOB and FOB mission system.
-"
-]];
-
-player createDiaryRecord ["changelog",
-[
-"2.85A",
-"
-<br />- [FIXED] FOB trucks should now Despawn.
-<br />- [ADDED] Utility for zues to stop Main AO.
-"
-]];
 //-------------------------------------------------- Credits
 
 player createDiaryRecord ["credits",
 [
 "I & A",
 "
-<br />Mission authors:<br /><br />
+<br />Developers:<br /><br />
 
-		- <font size='16'>Rarek</font> - Ahoy World (ahoyworld.co.uk)<br /><br />
-		- <font size='16'>Quiksilver</font><br />
+		- <font size='16'>Richard</font><br /><br />
+		- <font size='16'>Emlorp</font><br />
 		
 <br />Contributors:<br /><br />
-		- Jester - Ahoy World (ahoyworld.co.uk)<br />
-		- Razgriz33 - Ahoy World (ahoyworld.co.uk)<br />
-		- Kamaradski - Ahoy World (ahoyworld.co.uk)<br />
-		- BACONMOP - Ahoy World (ahoyworld.co.uk)<br />
-		- chucky - All FPS (allfps.com.au)<br /><br />
-		
-<br />Other:<br /><br />
-		VAS<br />
-		- Kronzky<br />
-		- Sa-Matra<br />
-		- Dslyecxi<br /><br />
-		=BTC= Revive<br />
-		- Giallustio<br />
-		- Edited by Quiksilver<br/><br />
-		EOS<br />
-		- BangaBob<br /><br />
-		Squad Manager<br />
-		- aeroson<br /> <br />
-		TAW View Distance<br />
-		- Tonic<br /> <br />
-		aw_fnc<br />
-		- Alex Wise<br /><br />
-		SHK Taskmaster<br />
-		- Shuko<br /><br />
-		Fast rope<br />
-		- Zealot<br /><br />
-		Map and GPS Icons (Soldier Tracker)<br />
-		- Quiksilver<br /><br />
-		Jump<br />
-		- ProGamer<br /><br />
-		Safe zone<br />
-		- Bake<br />
-		DAC<br />
-		- Silola<br />
+		- Bobby <br />
+		- TheGrappler <br />
+		- Sam <br />
+		- TheNomBomb <br />
+		- bloodtooth <br /><br />
+
 "
 ]];

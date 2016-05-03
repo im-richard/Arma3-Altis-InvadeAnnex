@@ -1,7 +1,7 @@
 //------------------------- On Load
 
-author = Richard;					// Visible when loading mission
-onLoadName = "107th Airborne Division | AGS";						// Visible when loading mission
+author = "Richard";										// Visible when loading mission
+onLoadName = "107th Airborne Division | AGS";			// Visible when loading mission
 OnLoadMission = "Welcome to Arche Gaming Studios! Join our Teamspeak at ts.archegamingstudios.net:9987";
 loadScreen = "media\images\loading.jpg";				// Visible when loading mission
 overviewPicture = "media\images\loading.jpg";			// Visible when selecting mission	

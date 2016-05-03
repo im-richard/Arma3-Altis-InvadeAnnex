@@ -1,17 +1,9 @@
 /*
-@filename: initPlayerLocal.sqf
-Author:
-	
-	Quiksilver
-
-Last modified:
-
-	29/10/2014 ArmA 1.32 by Quiksilver
-	
-Description:
-
-	Client scripts and event handlers.
-______________________________________________________*/
+	@Author: Richard
+	@Organization: Arche Gaming Studios
+	@Core: Arma 3
+	@Package: Invade and Annex Gamemode
+*/
 
 enableSentences FALSE;															
 enableSaving [FALSE,FALSE];
@@ -67,22 +59,9 @@ if (player isKindOf "B_support_Mort_f") then {
 
 //--------------------- Billboard Image Randomiser
 
-	_imageList = [1,2,3,4,5,6,7,8,9,10,11,12,13,14];
+	_imageList = [16];
 	_bill1 = _imageList call BIS_fnc_selectRandom;
-	if (_bill1 == 1) then {Bill_1 setObjectTexture [0,"media\images\billboard1.paa"]};
-	if (_bill1 == 2) then {Bill_1 setObjectTexture [0,"media\images\billboard2.paa"]};
-	if (_bill1 == 3) then {Bill_1 setObjectTexture [0,"media\images\billboard3.paa"]};
-	if (_bill1 == 4) then {Bill_1 setObjectTexture [0,"media\images\billboard4.paa"]};
-	if (_bill1 == 5) then {Bill_1 setObjectTexture [0,"media\images\billboard5.paa"]};
-	if (_bill1 == 6) then {Bill_1 setObjectTexture [0,"media\images\billboard6.paa"]};
-	if (_bill1 == 7) then {Bill_1 setObjectTexture [0,"media\images\billboard7.paa"]};
-	if (_bill1 == 8) then {Bill_1 setObjectTexture [0,"media\images\billboard8.paa"]};
-	if (_bill1 == 9) then {Bill_1 setObjectTexture [0,"media\images\billboard9.paa"]};
-	if (_bill1 == 10) then {Bill_1 setObjectTexture [0,"media\images\billboard10.paa"]};
-	if (_bill1 == 11) then {Bill_1 setObjectTexture [0,"media\images\billboard11.paa"]};
-	if (_bill1 == 12) then {Bill_1 setObjectTexture [0,"media\images\billboard12.paa"]};
-	if (_bill1 == 13) then {Bill_1 setObjectTexture [0,"media\images\billboard13.paa"]};
-	if (_bill1 == 14) then {Bill_1 setObjectTexture [0,"media\images\billboard14.paa"]};
+	if (_bill1 == 1) then {Bill_1 setObjectTexture [0,"media\images\billboard16.paa"]};
 	
 	
 	_imageList2 = [1,2,3,4,5,6,7,8,9,10,11,12,13,14];

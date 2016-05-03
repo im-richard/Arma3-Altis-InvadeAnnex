@@ -1,7 +1,7 @@
 //------------------------- On Load
 
-author = Richard;					// Visible when loading mission
-onLoadName = "107th Airborne Division | AGS";						// Visible when loading mission
+author = "Richard";										// Visible when loading mission
+onLoadName = "107th Airborne Division | AGS";			// Visible when loading mission
 OnLoadMission = "Welcome to Arche Gaming Studios! Join our Teamspeak at ts.archegamingstudios.net:9987";
 loadScreen = "media\images\loading.jpg";				// Visible when loading mission
 overviewPicture = "media\images\loading.jpg";			// Visible when selecting mission	
@@ -36,7 +36,7 @@ showUAVFeed = 1;										// Enables/Disables the UAV Feed. Zeus-related.
 
 Respawn = 3;											// 0 = none. 1 = bird. 2 = instant where died. 3 = base or respawn_west marker. 4 = respawn with team, or bird. 5 = into AI or bird.
 RespawnDelay = 4;										// Delay prior to respawn, ensure longer than BTC revive delay.
-RespawnDialog = 0;										// default = 1. show respawn timer and scoreboard when killed.
+RespawnDialog = 1;										// default = 1. show respawn timer and scoreboard when killed.
 
 //------------------------- Garbage collector
 							

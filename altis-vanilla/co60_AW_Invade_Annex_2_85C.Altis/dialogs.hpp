@@ -231,7 +231,7 @@ class Hint_2: RscText
 class Hint_3: RscText
 {
 	idc = 1014;
-	text = "Zues players may be on but that doesn't mean they killed you."; //--- ToDo: Localize;
+	text = "Have an idea or suggestion? Contact Richard"; //--- ToDo: Localize;
 	x = -0.6875;
 	y = 0.26;
 	w = 0.6625;
@@ -241,7 +241,7 @@ class Hint_3: RscText
 class Hint_5: RscText
 {
 	idc = 1015;
-	text = "Found a bug? Contact us on ts.archegamingstudios.net"; //--- ToDo: Localize;
+	text = "Found a bug? Contact us on teanspeak at: ts.archegamingstudios.net"; //--- ToDo: Localize;
 	x = -0.65;
 	y = 0.34;
 	w = 0.5625;
@@ -254,16 +254,6 @@ class Hint_6: RscText
 	text = "Looking for a squad? Join us on Teamspeak."; //--- ToDo: Localize;
 	x = -0.6125;
 	y = 0.42;
-	w = 0.4875;
-	h = 0.06;
-	SizeEx = 0.03700;
-};
-class Hint_7: RscText
-{
-	idc = 1016;
-	text = "Pilots should be on Teamspeak."; //--- ToDo: Localize;
-	x = -0.55;
-	y = 0.50;
 	w = 0.4875;
 	h = 0.06;
 	SizeEx = 0.03700;
