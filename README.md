@@ -1,2 +1,4 @@
 # arma3-altis-vanilla
-Arma 3 Altis map for Invade and Annex gamemode.
+
+Tuesday May 3, 2016
+- Init Release
