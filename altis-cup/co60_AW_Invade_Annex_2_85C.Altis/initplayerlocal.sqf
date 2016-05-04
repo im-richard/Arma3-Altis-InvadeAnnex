@@ -34,6 +34,7 @@ _null = [] execVM "scripts\icons.sqf";											// blufor map tracker Quicksilv
 _null = [] execVM "scripts\VAclient.sqf";										// Virtual Arsenal
 _null = [] execVM "scripts\misc\Intro.sqf";										// AW intro screen
 _null = [] execVM "scripts\voice_control\voiceControl.sqf";						// Voice Control
+_null = [] execVM "scripts\fn_advancedSlingLoadingInit.sqf";					// Advanced sling loading
 if (PARAMS_HeliRope != 0) then {call compile preprocessFileLineNumbers "scripts\vehicle\fastrope\zlt_fastrope.sqf";};
 
 [] call QS_fnc_respawnPilot;
@@ -59,10 +60,9 @@ if (player isKindOf "B_support_Mort_f") then {
 
 //--------------------- Billboard Image Randomiser
 
-	_imageList = [16];
+	_imageList = [15];
 	_bill1 = _imageList call BIS_fnc_selectRandom;
-	if (_bill1 == 1) then {Bill_1 setObjectTexture [0,"media\images\billboard16.paa"]};
-	
+	if (_bill1 == 15) then {Bill_1 setObjectTexture [0,"media\images\billboard15.paa"]};
 	
 	_imageList2 = [1,2,3,4,5,6,7,8,9,10,11,12,13,14];
 	_bill2 = _imageList2 call BIS_fnc_selectRandom;
@@ -199,6 +199,35 @@ if (player isKindOf "B_support_Mort_f") then {
 	if (_bill9 == 12) then {Bill_9 setObjectTexture [0,"media\images\billboard12.paa"]};
 	if (_bill9 == 13) then {Bill_9 setObjectTexture [0,"media\images\billboard13.paa"]};
 	if (_bill9 == 14) then {Bill_9 setObjectTexture [0,"media\images\billboard14.paa"]};
+
+	_imageList10 = [1,2,3,4,5,6,7,8,9,10,11,12,13,14];
+	_bill10 = _imageList10 call BIS_fnc_selectRandom;
+	if (_bill10 == 1) then {Bill_10 setObjectTexture [0,"media\images\billboard1.paa"]};
+	if (_bill10 == 2) then {Bill_10 setObjectTexture [0,"media\images\billboard2.paa"]};
+	if (_bill10 == 3) then {Bill_10 setObjectTexture [0,"media\images\billboard3.paa"]};
+	if (_bill10 == 4) then {Bill_10 setObjectTexture [0,"media\images\billboard4.paa"]};
+	if (_bill10 == 5) then {Bill_10 setObjectTexture [0,"media\images\billboard5.paa"]};
+	if (_bill10 == 6) then {Bill_10 setObjectTexture [0,"media\images\billboard6.paa"]};
+	if (_bill10 == 7) then {Bill_10 setObjectTexture [0,"media\images\billboard7.paa"]};
+	if (_bill10 == 8) then {Bill_10 setObjectTexture [0,"media\images\billboard8.paa"]};
+	if (_bill10 == 9) then {Bill_10 setObjectTexture [0,"media\images\billboard9.paa"]};
+	if (_bill10 == 10) then {Bill_10 setObjectTexture [0,"media\images\billboard10.paa"]};
+	if (_bill10 == 11) then {Bill_10 setObjectTexture [0,"media\images\billboard11.paa"]};
+	if (_bill10 == 12) then {Bill_10 setObjectTexture [0,"media\images\billboard12.paa"]};
+	if (_bill10 == 13) then {Bill_10 setObjectTexture [0,"media\images\billboard13.paa"]};
+	if (_bill10 == 14) then {Bill_10 setObjectTexture [0,"media\images\billboard14.paa"]};
+
+	_imageList11 = [20];
+	_bill11 = _imageList11 call BIS_fnc_selectRandom;
+	if (_bill11 == 20) then {Bill_11 setObjectTexture [0,"media\images\billboard20.paa"]};
+
+	_imageList12 = [21];
+	_bill12 = _imageList12 call BIS_fnc_selectRandom;
+	if (_bill12 == 21) then {Bill_12 setObjectTexture [0,"media\images\billboard21.paa"]};
+
+	_imageList13 = [22];
+	_bill13 = _imageList13 call BIS_fnc_selectRandom;
+	if (_bill13 == 22) then {Bill_13 setObjectTexture [0,"media\images\billboard22.paa"]};
 	
 //--------------------- Squad Url Hint
 
