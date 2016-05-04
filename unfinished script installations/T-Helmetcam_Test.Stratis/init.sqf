@@ -1,0 +1,1 @@
+nul = ["mission"] execVM "hcam_init.sqf";
