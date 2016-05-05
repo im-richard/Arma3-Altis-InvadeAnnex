@@ -34,7 +34,6 @@ _null = [] execVM "scripts\icons.sqf";											// blufor map tracker Quicksilv
 _null = [] execVM "scripts\VAclient.sqf";										// Virtual Arsenal
 _null = [] execVM "scripts\misc\Intro.sqf";										// AW intro screen
 _null = [] execVM "scripts\voice_control\voiceControl.sqf";						// Voice Control
-_null = [] execVM "scripts\fn_advancedSlingLoadingInit.sqf";					// Advanced sling loading
 if (PARAMS_HeliRope != 0) then {call compile preprocessFileLineNumbers "scripts\vehicle\fastrope\zlt_fastrope.sqf";};
 
 [] call QS_fnc_respawnPilot;
