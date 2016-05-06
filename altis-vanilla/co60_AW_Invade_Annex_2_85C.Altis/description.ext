@@ -502,6 +502,15 @@ class CfgNotifications
 		color[] = {0.38, 0.81, 0.16, 1};
 		priority = 5;
 	};
+	class CfgSounds
+	{
+   sounds[] = {Vent,Vent2,Para};
+
+	class Vent {name="Vent";sound[]={scripts\ATM_airdrop\data\Vent.ogg,db-11,1.0};titles[] = {};};
+	class Vent2 {name="Vent2";sound[]={scripts\ATM_airdrop\data\Vent2.ogg,db-11,1.0};titles[] = {};};
+	class Para {name="Para";sound[]={scripts\ATM_airdrop\data\parachute.ogg,db-11,1.0};titles[] = {};};
+
+	};
 }
 /*
 Authors: 
