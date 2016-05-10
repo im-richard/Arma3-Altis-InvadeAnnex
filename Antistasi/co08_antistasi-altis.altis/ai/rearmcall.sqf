@@ -1,1 +1,0 @@
-{_nul = [_x] spawn autoRearm; sleep 3 + (random 5)} forEach _this;
