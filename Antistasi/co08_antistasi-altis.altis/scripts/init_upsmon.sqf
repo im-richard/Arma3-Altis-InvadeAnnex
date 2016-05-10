@@ -13,14 +13,14 @@ UPSMON_Debug = 0;
 UPSMON_maxwaiting = 10;
 
 // Set How many time a unit will search around a suspect position
-UPSMON_SRCHTIME = 90;
+UPSMON_SRCHTIME = 30;
 
 // if you are spotted by AI group, how close the other AI group have to be to You , to be informed about your present position. over this, will lose target
-UPSMON_sharedist = 800; // org value 800 => increased for ArmA3 map sizes for less predictable missions..
+UPSMON_sharedist = 400; // org value 800 => increased for ArmA3 map sizes for less predictable missions..
 
 // knowsAbout 0.5 1.03 , 1.49 to add this enemy to "target list" (1-4) the higher number the less detect ability (original in 5.0.7 was 0.5)
 // it does not mean the AI will not shoot at you. This means: what must be knowsAbout you to UPSMON adds you to the list of targets (UPSMON list of target)
-UPSMON_knowsAboutEnemy = 1.5; // 5
+UPSMON_knowsAboutEnemy = 3.5; // 5
 
 //////////////////////// MODULES ////////////////////////////////////////////
 //Enable it to send reinforcements, better done it in a trigger inside your mission.
@@ -33,17 +33,17 @@ UPSMON_ARTILLERY_WEST_FIRE = true; //set to true for doing west to fire
 UPSMON_ARTILLERY_GUER_FIRE = true; //set to true for doing resistance to fire
 
 // Can the group surrender?
-UPSMON_SURRENDER = false;
+UPSMON_SURRENDER = true;
 
 // Chance of Surrender/100
-UPSMON_WEST_SURRENDER = 10;
-UPSMON_EAST_SURRENDER = 10;
-UPSMON_GUER_SURRENDER = 10;
+UPSMON_WEST_SURRENDER = 15;
+UPSMON_EAST_SURRENDER = 15;
+UPSMON_GUER_SURRENDER = 15;
 
 // Chance of Retreating/100
-UPSMON_WEST_RETREAT = 0;
-UPSMON_EAST_RETREAT = 0;
-UPSMON_GUER_RETREAT = 0;
+UPSMON_WEST_RETREAT = 20;
+UPSMON_EAST_RETREAT = 20;
+UPSMON_GUER_RETREAT = 20;
 
 /// Civilian Hostility (Set to 0 if you want to disable the function)
 UPSMON_Ammountofhostility = 0;
@@ -68,13 +68,13 @@ UPSMON_paraflyinheight = 110;
 UPSMON_searchVehicledist = 900; // 700, 900
 
 // How far opfor disembark from non armoured vehicle
-UPSMON_closeenoughV = 800;
+UPSMON_closeenoughV = 500;
 
 // how close unit has to be to target to generate a new one target or to enter stealth mode
-UPSMON_closeenough = 300;  // ToDo investigate effect of decrease of this value to e.g. 50 // 300
+UPSMON_closeenough = 100;  // ToDo investigate effect of decrease of this value to e.g. 50 // 300
 
 //Do the unit react to near dead bodies;
-UPSMON_deadBodiesReact = true;
+UPSMON_deadBodiesReact = false;
 
 //Do unit can lay down mine (ambush and defense module)
 UPSMON_useMines = true;
@@ -84,10 +84,10 @@ UPSMON_ambushdist = 100;
 
 //% of chance to use smoke by team members when someone wounded or killed in the group in %(default 13 & 35).
 // set both to 0 -> to switch off this function
-UPSMON_USE_SMOKE = 35; // org 13: decreased while AI is popping smoke a bit too often
+UPSMON_USE_SMOKE = 13; // org 13: decreased while AI is popping smoke a bit too often
 
 //Allow Relax units during nightime to create fireplace
-UPSMON_Allowfireplace = false;
+UPSMON_Allowfireplace = true;
 
 //Allow Units to Rearm
 UPSMON_AllowRearm = true;
