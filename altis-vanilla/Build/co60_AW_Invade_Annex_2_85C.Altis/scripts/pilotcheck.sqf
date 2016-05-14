@@ -9,14 +9,11 @@ waitUntil {player == player};
 
 _iampilot = ({typeOf player == _x} count _pilots) > 0;
 
-/* Remove comments and insert UIDs into the whitelist to exempt individuals from this script
 _uid = getPlayerUID player;
 _whitelist = ["76561198029008449","76561198058389301","76561198085765221","76561198022163272","76561198039531022","76561198080680196","76561198001522951","76561198054120913","76561198043550034","76561198023528482","76561197961923793","76561198079640023","76561197998355936","76561197983658369","76561198086257618","76561197980032453"];
 
 if (_uid in _whitelist) exitWith {};
-*/
 
-/*
 while { true } do {
 	_oldvehicle = vehicle player;
 	waitUntil {vehicle player != _oldvehicle};
@@ -46,4 +43,3 @@ while { true } do {
 		};
 	};
 };
-*/
