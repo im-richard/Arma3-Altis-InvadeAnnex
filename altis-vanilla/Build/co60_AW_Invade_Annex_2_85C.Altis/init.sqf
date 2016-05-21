@@ -29,4 +29,3 @@ for [ {_i = 0}, {_i < count(paramsArray)}, {_i = _i + 1} ] do {
 
 execVM "scripts\grenadestop.sqf"												//Safezones
 call compile preprocessfile "scripts\=BTC=_revive\=BTC=_revive_init.sqf";		// revive
-
